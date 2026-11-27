@@ -14,8 +14,8 @@ import { mkdirSync, writeFileSync, rmSync, existsSync } from 'node:fs'
 import { dirname, join, basename } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const REPO = 'Eternal-Wanderer-Vegetable/Stella_project'
-const REF = 'main'
+const REPO = 'Enoa-devteam/Stella_project'
+const REF = process.env.DOCS_REF || 'main'   // 上游 PR 合并前预览可设 DOCS_REF=<分支>
 const SRC_PREFIX = 'docs/'
 const OUT = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs-content')
 

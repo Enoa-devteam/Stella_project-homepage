@@ -1,6 +1,6 @@
 {
   "llmsTitle": "Stella",
-  "llmsDesc": "An open-source, model-agnostic QQ-group AI agent built around an ~8K-token context window: long-term memory, capability routing, and tool execution outside the context window. Powered by NoneBot 2 + OneBot V11; runs locally, hybrid or online; compatible with the AstrBot plugin ecosystem.",
+  "llmsDesc": "An open-source, model-agnostic QQ-group AI agent built around an ~8K-token context window: long-term memory, capability routing, and tool execution outside the context window. Powered by NoneBot 2 + OneBot V11 (V12 experimental); runs locally, hybrid or online; compatible with the AstrBot plugin ecosystem.",
   "zh": {
     "title": "Stella 常见问题",
     "intro": "关于 Stella 的简短回答:它是什么、怎么部署、记忆如何管理。全部回答只陈述当前文档快照中可核对的事实。",

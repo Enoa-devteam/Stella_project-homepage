@@ -14,7 +14,7 @@ import { fileURLToPath } from 'node:url'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const DIST = join(ROOT, 'dist')
-const SITE = 'https://eternal-wanderer-vegetable.github.io/Stella_project-homepage'
+const SITE = 'https://enoa-devteam.github.io/Stella_project-homepage'
 
 const manifest = JSON.parse(readFileSync(join(ROOT, 'docs-content', 'manifest.json'), 'utf-8'))
 const faqContent = JSON.parse(readFileSync(join(ROOT, 'src', 'content', 'faq.json'), 'utf-8'))
@@ -352,7 +352,7 @@ ${urlXml}
 // —— llms.txt(机器可读项目索引;Google 官方声明不以此作为收录信号,仅备将来) ————
 const llms = [`# ${faqContent.llmsTitle || 'Stella'}`, '', `> ${faqContent.llmsDesc}`, '',
   `Home: ${SITE}/`, `Docs: ${SITE}/docs/zh/`, `Docs (English): ${SITE}/docs/en/`,
-  `FAQ: ${SITE}/faq/`, `Source: https://github.com/Eternal-Wanderer-Vegetable/Stella_project`, '',
+  `FAQ: ${SITE}/faq/`, `Source: https://github.com/Enoa-devteam/Stella_project`, '',
   '## Docs', '',
   ...docPages.filter((p) => p.lang === 'zh').map((p) => `- [${p.title}](${urlOf(p)})`),
   '', '## Docs (English)', '',
