@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const DIST = join(ROOT, 'dist')
-const SITE = 'https://eternal-wanderer-vegetable.github.io/Stella_project-homepage'
+const SITE = 'https://enoa-devteam.github.io/Stella_project-homepage'
 
 const manifest = JSON.parse(readFileSync(join(ROOT, 'docs-content', 'manifest.json'), 'utf-8'))
 const faqContent = JSON.parse(readFileSync(join(ROOT, 'src', 'content', 'faq.json'), 'utf-8'))

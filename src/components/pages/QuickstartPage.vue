@@ -48,7 +48,7 @@ function copyCode() {
           <div class="n">1</div>
           <div>
             <h4>{{ t('qs.s1h') }}</h4>
-            <p>{{ t('qs.s1p1') }}<a href="https://github.com/Eternal-Wanderer-Vegetable/Stella_project/releases" target="_blank" rel="noopener">Releases</a>{{ t('qs.s1p2') }}</p>
+            <p>{{ t('qs.s1p1') }}<a href="https://github.com/Enoa-devteam/Stella_project/releases" target="_blank" rel="noopener">Releases</a>{{ t('qs.s1p2') }}</p>
           </div>
         </div>
         <div class="step reveal" v-reveal>
@@ -92,7 +92,7 @@ function copyCode() {
         <div class="dots"><i></i><i></i><i></i></div>
         <button v-ripple class="copy-btn" @click="copyCode">{{ copied ? t('qs.copied') : t('qs.copy') }}</button>
 <pre ref="devcode" id="devcode"><span class="cm">{{ t('qs.c1') }}</span>
-git clone https://github.com/Eternal-Wanderer-Vegetable/Stella_project.git
+git clone https://github.com/Enoa-devteam/Stella_project.git
 cd Stella_project
 pip install -r requirements.txt
 

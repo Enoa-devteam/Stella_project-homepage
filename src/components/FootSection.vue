@@ -14,11 +14,11 @@ const emit = defineEmits(['open'])
       </div>
       <!-- 用 div 而非 nav:全局 nav 选择器是顶栏的 position:fixed 样式,会误伤此处 -->
       <div class="foot-links" v-reveal style="transition-delay:.48s">
-        <a href="https://github.com/Eternal-Wanderer-Vegetable/Stella_project" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/Enoa-devteam/Stella_project" target="_blank" rel="noopener">GitHub</a>
         <span class="dot" aria-hidden="true">·</span>
         <button type="button" @click="emit('open', 'docs')">Docs</button>
         <span class="dot" aria-hidden="true">·</span>
-        <a href="https://github.com/Eternal-Wanderer-Vegetable/Stella_project/blob/main/LICENSE" target="_blank" rel="noopener">License</a>
+        <a href="https://github.com/Enoa-devteam/Stella_project/blob/main/LICENSE" target="_blank" rel="noopener">License</a>
       </div>
       <p class="foot-copy" v-reveal style="transition-delay:.6s">© 2026 Eternal-Wanderer-Vegetable · Stella Project</p>
     </div>
